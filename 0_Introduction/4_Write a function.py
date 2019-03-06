@@ -1,4 +1,8 @@
 def is_leap(year):
+    ## true is 1
+    # false is 0
+    # thats bollean
+    # dummy means，fake things for testing purpose    
     leap = False
     
     # Write your logic here
