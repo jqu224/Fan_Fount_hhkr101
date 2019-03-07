@@ -48,22 +48,25 @@ if __name__ == '__main__':
     #           falling into condition (a)  i < max2 < max1
     #           no need to update max1  ->  let us call it a day:P
 
-# NOTES: 这种有难度的题， 最好写一下草稿 
+# NOTES: 
 # we only keep the two largest [value]
+# 这种有难度的题， 最好写一下 logic 草稿 
 # 
 # 1.0是浮点数，python就是float，有小数点的
 # 10是整数 integer， python 里 叫 int 
 # 
 # in python int and float 可以混用，之后会说 
 # 
-#  i == max_max means u dont need to update max1 nor max2
+# since we are tracking value not specific number
+# when we have i == max1 or == max2 
+#   means u dont need to update max1 nor max2
 # 
 # 我的方法就是
 # 设 两个var，maxmax和maxsecond，
 # 初始化为负无穷-inf，
-#  ifinput i 小于maxsec则不记录，
-#  if      i 在secondmax和maxmax中间则更新secondmax为i， 
-#  if      i 大于maxmax则把maxmax传递给maxsec然后用i换掉maxmax 
+#  if input  i 小于maxsec则不记录，
+#  if        i 在secondmax和maxmax中间则更新secondmax为i， 
+#  if        i 大于maxmax则把maxmax传递给maxsec然后用i换掉maxmax 
 # 
 # 注意次序和等于号的使用 
 # 
