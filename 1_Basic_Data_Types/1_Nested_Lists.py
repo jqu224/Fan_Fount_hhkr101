@@ -29,3 +29,65 @@ if __name__ == '__main__':
         print("\n".join(sorted(sheet[sec_last])))
     else:
         print("Error occured")
+        
+#     detailed breakdown    #     detailed breakdown    #     detailed breakdown    #     detailed breakdown    
+    # input:
+    # 5
+    # Harry
+    # 37.21
+    # Berry
+    # 37.21
+    # Tina
+    # 37.2
+    # Akriti
+    # 41
+    # Harsh
+    # 39
+    
+    # code starts below
+    # first create an empty dictionary    
+    sheet = {}
+    # or
+    sheet = dict()
+    #  a dict is bunch of pairs of keys: values
+    #   such as {"key": 12, 1: "value"}
+    #   in this case, use score as key and name_list as value  
+    
+    for _ in range(int(input())):   # this input catch the 1st num: 5 for once
+        name = input()              # Harry
+        score = float(input())      # 37.21
+        if score in sheet:          # dict can only find by key, so if 37.21 is a key in sheet{}
+            sheet[score].append(name) # append [name] to the end of the list of sheet[score] 
+        else:                       # so if 37.21 is not a key in sheet{}
+            sheet[score] = [name]   # create a list by [name] and pair it with sheet[score]
+            #             note: ["Harry"] means a list with only one element "Harry"
+            #               here name "Harry" is not the same as [name] which is "Harry"             
+            # also try: 
+            # row[score] = name
+            
+    # now we have 
+    #     sheet =  {37.21: ['Harry', 'Berry'], 
+    #                 37.2: ['Tina'], 
+    #                 41.0: ['Akriti'], 
+    #                 39.0: ['Harsh']}
+    
+    sec_last = float("-inf")  
+    
+    # score values: from max to min 
+    for i in sorted(sheet.keys()): # i -> [37.21,  37.2,   41.0,   39.0] 
+    #         dict.keys() means get all of the keys, in this case all floats values
+    # or: 
+    # for i in sorted(list(sheet))
+        if i > sorted(sheet.keys())[0]:
+            sec_last = i
+            break # found the second lowest score let us break this for() loop please!
+        # pls also try:
+        # if i < max(sheet.keys()): 
+        #    sec_last = i
+        #    break 
+
+    if sec_last in sheet:
+        # print the list of 2nd lowest values line by line        
+        print("\n".join(sorted(sheet[sec_last]))) # see extra from 0_intro folder
+    else:
+        print("Error occured")
