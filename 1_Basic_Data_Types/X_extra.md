@@ -22,6 +22,7 @@ return: [a b c] since 28 is the 2nd lowest score
 u don t need that for loop, use i = sorted(sheet.keys())[1] to find the 2nd lowest score
 
 -----------------------------------------------------------------------------------
+
 Q - 所以一开始 所有的score 都不在 sheet 里 所以就跑到 else， create 除了 一个list？ 这个list 都是名字？
 A - use the 1st name as a start
   if a new 37: sheet[37] = ["quan"] that is creating a list using the first occurance
@@ -29,7 +30,9 @@ A - use the 1st name as a start
   
 
 
+
 -----------------------------------------------------------------------------------
+
 Q - 所以sheet[score]=[name]  这个score的意思是 score是key？然后name是value？
 A - YEAH, list of names is the value here, 
     we have key:value as score:[name]
