@@ -1,6 +1,8 @@
   
+-----------------------------------------------------------------------------------
 List:
 https://www.w3schools.com/python/python_lists.asp
+-----------------------------------------------------------------------------------
 a = [] this is a list
 
 ### find the list of students with the 2nd lowest score:
