@@ -8,6 +8,7 @@ a = [] this is a list
 ### find the list of students with the 2nd lowest score:
 
 what we want:
+
 dict { 
 
   27:[quan fan], 
@@ -47,6 +48,7 @@ A - YEAH, list of names is the value here,
     
 sheet.keys() -> gives you a list of all keys
 sheet.values() gives u all of the values
+
 -----------------------------------------------------------------------------------
 >>> a={1:12}
 {1: 12}
@@ -58,6 +60,7 @@ sheet.values() gives u all of the values
 
 following is addons  -   following is addons  -- following is addons  -   following is addons
 -----------------------------------------------------------------------------------
+
 for i in a[::-1]:
 this is a for loop goes from the back
 
@@ -68,6 +71,7 @@ this is a for loop goes from the back
 '6654321'
 
 -----------------------------------------------------------------------------------
+
 however, a[-1] last element
 
 
@@ -170,6 +174,7 @@ if 1st char is the same, compare the 2nd if ..2nd == 2nd compare 3rd char..... g
 
 
 -----------------------------------------------------------------------------------
+
 a, *b = list( map( int, input.split() ) )
 input split这部分，read in input 是一个 list
 
@@ -191,6 +196,7 @@ Q - what does map mean
 -----------------------------------------------------------------------------------
 A - 匹配… 命名…… 
 -----------------------------------------------------------------------------------
+
     map(int, listName) 
         -> map everything inside listName as int
     line is a list of strings
@@ -294,6 +300,7 @@ string  --  string -- string  --  string -- string  --  string -- string  --  st
 a[1] means the 2nd char of string a
 
 -----------------------------------------------------------------------------------
+
 also, string cant be modified, so....
 
 >>> a
@@ -310,6 +317,7 @@ but this is doable:
 
 
 -----------------------------------------------------------------------------------
+
 >>> a = "this"
 >>> a
 'this'
@@ -325,6 +333,7 @@ but this is doable:
 
 -----------------------------------------------------------------------------------
 sum up of string  -- sum up of string -- sum up of string  -- sum up of string
+-----------------------------------------------------------------------------------
 
 if you are asked to replace one char in a string, do:
 list(that string) as list of chars
@@ -339,6 +348,7 @@ A - dui
 set  --  set -- set  --  set -- set  --  set -- set  --  set -- set  --  set -- set  --  set -- 
 -----------------------------------------------------------------------------------
 Q - set[]是啥
+-----------------------------------------------------------------------------------
 A - set(a) return a list of unique numbers inside list_a....no need to know set() for now
 
 set(["a", "z", "a", "c"]) = {"a", "z", "c"}
