@@ -2,7 +2,7 @@ def print_full_name(a, b):
     print("Hello %s %s! You just delved into python." %(a, b))
 
     # also concatenation:
-    # print("Hello "+ a+ " " + b +"! You just delved into python.")  # same output
+    # print("Hello "+ a + " " + b +"! You just delved into python.")  # same output
 
     # intuitive, take a closer look at the syntax
     #  print("Hello %d %d! You just delved into python." %(a, b))  #  for int numbers aa and bb
