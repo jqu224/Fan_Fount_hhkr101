@@ -40,6 +40,13 @@ def mutate_string(string, *position):
     >>> a
     [1, 'a', 1.1, [1, 3], (3, 4, 5)]
     >>>
+    
+    >>> a[3]
+            [1, 3]
+    >>> a[4]
+            (3, 4, 5)
+    >>>
+
 
 
     用*号,就把 int(i) 给了position【0】，把 c 赋予了 position【1】，所以上面的 code 也是能 pass the tests 的
@@ -47,9 +54,3 @@ def mutate_string(string, *position):
     def mutate_string(string, *position): 
         这里，string == “abracadabra ” 
         而 position == [5,  “k”] 了
-    >>> a[3]
-            [1, 3]
-    >>> a[4]
-            (3, 4, 5)
-    >>>
-
