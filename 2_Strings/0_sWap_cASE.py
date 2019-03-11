@@ -17,4 +17,30 @@ def swap_case(s):
             list_a[i] = s[i]
     return "".join(list_a)
 
+
+
+
 if __name__ == '__main__':
+
+    
+# 1 NOTE NOTE NOTE NOTE NOTE  # 1 NOTE NOTE NOTE NOTE NOTE  # 1 NOTE NOTE NOTE NOTE NOTE  # 1 NOTE NOTE NOTE NOTE NOTE
+
+>>> for c, value in enumerate(my_list):
+...     print(c, value)
+...
+0 apple
+1 banana
+2 grapes
+3 pear   
+    
+>>>> for c, value in enumerate(my_list, 4):
+...     print(c, value)
+...
+4 apple
+5 banana
+6 grapes
+7 pear   
+    
+    
+    
+    
