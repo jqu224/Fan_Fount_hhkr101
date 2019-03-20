@@ -3,11 +3,11 @@ if __name__ == '__main__':
 #     solution a
 #     这 a 是我抄来的
     str = input()
-    print any(c.isalnum()  for c in str)
-    print any(c.isalpha() for c in str)
-    print any(c.isdigit() for c in str)
-    print any(c.islower() for c in str)
-    print any(c.isupper() for c in str)
+    print(any(c.isalnum()  for c in str))
+    print(any(c.isalpha() for c in str))
+    print(any(c.isdigit() for c in str))
+    print(any(c.islower() for c in str))
+    print(any(c.isupper() for c in str))
     
 #     solution b
     
