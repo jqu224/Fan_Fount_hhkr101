@@ -2,13 +2,20 @@ import textwrap
 
 def wrap(string, max_width):
     
-#  solution a
+#  solution a.1
     temp_list = list(string)
     # try for i in range(1, len(string)): and click run code
     for i in range(len(string)+1,1,-1):
         if i % max_width == 0:
             temp_list.insert(i, "\n")
     return "".join(temp_list)
+
+#  solution a.2
+    temp_list = list(string)
+    # try for i in range(1, len(string)): and click run code
+    for i in range(len(string)//max_width,0,-1): 
+        temp_list.insert(i*max_width, "\n")
+    return "".join(temp_list) 
 
 #  solution b 
     answer = [] 
