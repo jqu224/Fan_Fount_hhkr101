@@ -30,7 +30,18 @@ if __name__ == '__main__':
     
     
 =====   NOTES      =====   NOTES      =====   NOTES      =====   NOTES      =====   NOTES      =====   NOTES      
-    
+a是，全拆开，从后往前，在被width整除的位置放入newline char
+b是，每四个取出，【“abcd”,"efgh",'ijk'】然后用 \n join即可
+
+append(string[0;4] 是append abcd 还是abcde啊
+       
+       －－－－－－－－－－－－－－－－－－
+       range（len，0， －1）是不包括0的，要求是4 8 12位插入回车，不包括0位的
+而0满足%width == 0 所以要去掉 0 ，不然第0个就加上\n了
+       
+       
+
+
     insert(4, a)是吧a放在4，原来的4567位置上的瞬移到5678
     
 for i =  4 8 12 在 abcdefghijk 的de中间和hi中间插入回车符号对不对？
