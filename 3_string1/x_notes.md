@@ -44,6 +44,32 @@ for loop
 换句话说：
   这个if我进去玩过了，这次是我的第二次路过这个if isdigit == true，就不进去了
   
+  －－－－－－－－－－－－－－－
+  从最里面的()开始，再找()后面的[]，如果有的话，没有的话就找外面一层()，这就是python解码的时候的优先级
+  －－－－－－－－－－－－－－
+  hacker rank有个方便，你光标选中任意括号，她会提示你这个括号的另一半的位置，帮助你debug，找出你是不是漏掉括号了
+  
+  list_a = (str(i).rjust(w,' '),  str(oct(i)[2:]).rjust(w,' '),   str(hex(i)[2:].upper()).rjust(w,' '),  str(bin(i)[2:]).rjust(w,' ') 对了，这个其实不是list，你等于是制造了list_a == tuple
+你需要lista = [a, b, c]方括号才行，
+复习一下，tuple是不能改变内容的，list可以
+```
+>>> a = (1,2,3)
+>>> a[0] = 11
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>啊！然而：
+>>>
+>>> b = [1,2,3]
+>>> b[0] = 11
+>>> b
+[11, 2, 3]
+```
+  
+  >>> a[2:1:-1]
+(3,)
+>>> a
+(1, 2, 3)
   
   -------------------
   rjust ljust center
