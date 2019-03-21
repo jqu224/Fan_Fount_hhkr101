@@ -2,6 +2,9 @@
 ###range(10,1,2) -> 10 8 6 4 2
 ----------------------
 
+print a，b是python 2
+print(a, b)是python3
+
 ------
 True or False boolean values
 ------
