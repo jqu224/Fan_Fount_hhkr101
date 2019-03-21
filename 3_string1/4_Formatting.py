@@ -8,6 +8,14 @@ def print_formatted(number):
             str(oct(i)[2:]).rjust(w,' '),
             str(hex(i)[2:].upper()).rjust(w,' '),
             str(bin(i)[2:]).rjust(w,' '),sep=' ')
+        
+#         那可不可以 
+        list = (str(i).rjust(w,' '),  str(oct(i)[2:]).rjust(w,' '),  
+                      str(hex(i)[2:].upper()).rjust(w,' '),  str(bin(i)[2:]).rjust(w,' ') 
+#                 然后
+        print “ ”.join(list)
+                
+                
 if __name__ == '__main__':
     n = int(input())
     print_formatted(n)
