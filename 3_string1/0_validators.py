@@ -1,7 +1,22 @@
 if __name__ == '__main__':
+
+# print True if string S
+
+# has any lowercase characters. Otherwise, print False. 
+islower() 是 check 是否全为lower case 
+cant be used directly 
+
+>>> print("asdD3".islower())
+False
+>>> print("asd3".islower())
+True
     
 #     solution a
 #     这 a 是我抄来的
+for把 c in str 变成了list，
+譬如 str == qA2：那么c.isupper() for c in str 会 return [false true false]，
+接着外面的any()这个语法是：只要出现过 true more than once 就 return true
+
     str = input()
     print(any(c.isalnum()  for c in str))
     print(any(c.isalpha() for c in str))
