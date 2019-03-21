@@ -11,6 +11,9 @@ if __name__ == '__main__':
     
 #     solution b
     
+嫌弃这个太复杂就用solution b，我只会，逻辑简单写，
+先定义4个anylower anyupper为false，
+把str for loop一遍，有islower就把一个anylower的牌子翻过来变成true，最后return anylower anyupper
     s = input()
     # first define 5 var for the outcomes
     anyAlphanumeric  = 0
