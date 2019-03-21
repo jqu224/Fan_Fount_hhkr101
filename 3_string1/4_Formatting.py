@@ -141,6 +141,56 @@ invalid syntax就是python想告诉你，你写的我看不懂
 1-2
 
 
+str(oct(i)[2:]).rjust(w,' '),举例来说，这个8进制，
+居右对齐，剩余的字符空间用空格 ' ' 填充
+
+
+譬如   17    21    11 10001  
+事实上你要的是 十进制5个字符 + “ ” + 8进制5个字符 + “ ” + 
+16进制5个字符 + “ ” + 2进制5个字符 
+那么print的就是： 3个空格+ str(17) + " " + 3个空格 + str(21) + " " + 3个空格 + str(11) + " " + 0个空格 + str(10001) 
+
+所以10.rjust(5,' ')是？
+1和0两个字符居右靠旁边，然后用3个空格填满左边，
+overall占了5个格子
+
+
+======
+
+所以align只能align string是么 不能align int
+>>> "10".rjust(10," ")
+'        10'
+>>> 10.rjust(10," ")
+  File "<stdin>", line 1
+    10.rjust(10," ")
+           ^
+SyntaxError: invalid syntax
+  invalid syntax就是python想告诉你，你写的我看不懂  
+    
+    
+    这个是因为要用sep字符把他们连起来：print (str(i).rjust(w,' '),  str(oct(i)[2:]).rjust(w,' '),   str(hex(i)[2:].upper()).rjust(w,' '),  str(bin(i)[2:]).rjust(w,' '),sep=' ')
+
+把这长串简化一下：print(a,b,c,d, sep=" ")也就是 a b c d用空格分开的意思
+
+ 
+Q: 可不可以 list = (str(i).rjust(w,' '),  str(oct(i)[2:]).rjust(w,' '),   str(hex(i)[2:].upper()).rjust(w,' '),  str(bin(i)[2:]).rjust(w,' ') 然后print “ ”.join(list)
+ 
+应该是可以的吧
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
