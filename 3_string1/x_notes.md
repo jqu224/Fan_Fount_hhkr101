@@ -1,9 +1,17 @@
 ---------------------
-range(10,1,2) -> 10 8 6 4 2
+###range(10,1,2) -> 10 8 6 4 2
 ----------------------
 
 ------
 True or False boolean values
+------
+
+
+
+
+
+------
+##True or False boolean values
 ------
 ```
 >>> a = True
