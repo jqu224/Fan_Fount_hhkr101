@@ -30,6 +30,8 @@ if __name__ == '__main__':
     
     
 =====   NOTES      =====   NOTES      =====   NOTES      =====   NOTES      =====   NOTES      =====   NOTES      
+
+
 a是，全拆开，从后往前，在被width整除的位置放入newline char
 b是，每四个取出，【“abcd”,"efgh",'ijk'】然后用 \n join即可
 
