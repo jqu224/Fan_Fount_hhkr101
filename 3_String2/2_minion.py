@@ -28,6 +28,18 @@ def minion_game(string):
     stu = 0
     kev = 0
     len_s = len(string)
+#     这题意思是，
+# 数一下 元音开头的子string：substring有几个，
+#  再数一下 辅音开头的子string有几个
+
+# 譬如：
+# baxep
+# b: 辅音 kev 有 0 + baxep + baxe + bax + ba 和 b = 5
+# a: 元音 stu 有 0 + axep + axe + ax + a = 4
+# x: 辅音 stu 有 5 + xep + xe + x = 3
+# e: 元音 stu 有 4 + ep + e = 6
+# p: 辅音 kev 有 8 + p = 9
+#   辅音多，kev == 9
     for i, char in enumerate(string):
         if char in "AEIOU":
             kev += len_s - i
