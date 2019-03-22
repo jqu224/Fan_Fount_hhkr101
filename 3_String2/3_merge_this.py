@@ -20,14 +20,14 @@ def merge_the_tools(string, k):
             # chop off [0:k] [k:2k] [2k:3k] ....
             temp_list = list(string[i*k:i*k+k])
             # create a temp string for unique char in [0:k] ... and so on 
-            temp_set = ""
+            t_set = ""
             # loop through the [0:k] lists
             for x in temp_list:
                 # if current char is not in the temp string 
                 # then append it to the end of temp string
-                if x not in temp_set:
-                    temp_set += x
-            print(temp_set)
+                if x not in t_set:
+                    t_set += x
+            print(t_set)
  
 
 
