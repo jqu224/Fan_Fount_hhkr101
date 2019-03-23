@@ -22,6 +22,7 @@ class Solution:
         else:
             answer = int(temp[::-1])
             
+#             1<<31 means decimal value of binary(10^31)
         if answer >= 1<<31 or answer < -1<<31:
             return 0
         else:
