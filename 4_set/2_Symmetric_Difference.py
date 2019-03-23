@@ -27,6 +27,7 @@ print("\n".join(map(str, diff_0)))
 
 
 # 为啥需要srt（）
+# join() expected str
 
 # >>> "=".join([1,2,3])
 # Traceback (most recent call last):
