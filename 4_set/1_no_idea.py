@@ -26,6 +26,25 @@ Will give the output : {1, 2, 3} If list is used time required would be much mor
 # A = set(map(int, input().split()))
 # B = set(map(int, input().split()))
 
+
+# >>> for i in "12345":
+# ...     print(i)
+# ...
+# 1
+# 2
+# 3
+# 4
+# 5
+
+
+# >>> for i in 12334:
+# ...     print(i)
+# ...
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: 'int' object is not iterable
+    
+    
 for i in list_int:
     if i in A:
         happiness += 1
