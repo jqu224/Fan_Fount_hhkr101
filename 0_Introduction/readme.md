@@ -35,7 +35,7 @@ print（“a”）：
 
 打印了：
  “a”
- 
+
  
  
 ```
@@ -53,4 +53,53 @@ print(b)
 打印了：
  10000
 
+  
+ ```
+ x = int(input())
+ 在python内部发生了什么呢？
  
+ 建立一个变量x，使其指向int(input())的结果
+ 那么首先看最inner bracket，input()
+ 意思是take in 一个 string，
+ （直到回车符号 “\n”出现，才算一个string）
+ int(这个string)意思是：默认只有一个
+ “123”\n
+ 这样的string，（“12 45”\n这样不行）
+ 然后把三个char字符组成的string： “123” 转换成 123 三位数字
+把123 放入内存中，
+然后让x指向这个123所在地位置。
+
+print（x）就会
+print：
+123
+ ```
+
+
+ 
+ ```
+ x = int(input())
+ y = int(input())
+ print（x,y）
+ 运行上面这三行
+ 
+ 程序会等待你输入两行：
+ 
+ 假设我输入的是：
+ 123 回车
+ 345 回车
+ 
+ 在python内部发生了什么呢？
+ 
+ 建立一个变量x，使其指向int(input())的结果 123
+ 建立一个变量y，使其指向int(input())的结果 345
+ 这样，python存了两个变量： x和y
+ x和y指向的数值分别是：123和345
+ 
+print（x，y）就会
+print：
+123 空1格 345
+ 
+ 
+ 
+ 
+ ```
