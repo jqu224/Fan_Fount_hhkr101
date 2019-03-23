@@ -33,3 +33,17 @@ set([(6, 'r'), (7, 'a'), (3, 'k'), (4, 'e'), (5, 'r'), (9, 'k'), (2, 'c'), (0, '
 这个是enumerate吧 list变成 （index, char）的tuple形势，set of tuple，
 你发现两个r两个a都在，因为（1，r）和（2，r）这样是两个不同的element，
 set() of these （1，r）和（2，r) tuples， gives u two tuples （1，r）和（2，r in the set
+
+
+set是无序的
+
+>>> set([1,2,3]) == set([3,1,2])
+True
+set 只关心element唯一性，不关心顺序
+
+只是有时，题目给你的是标准输入，
+你必须take in and deal with it。如果不input()处理掉，会影响arr = input()这行
+
+
+
+
