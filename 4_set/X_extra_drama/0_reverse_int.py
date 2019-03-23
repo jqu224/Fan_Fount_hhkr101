@@ -13,6 +13,7 @@ class Solution:
 #     1073741824
 
 
+# solution a
     def reverse(self, x: int) -> int:
         
         temp = str(x)
@@ -26,7 +27,7 @@ class Solution:
         else:
             return answer
 
-
+# solution b
 #         answer = 0
 #         if x == 0 or x > 2**31 -1 or x < -2**31:
 #             pass 
@@ -46,6 +47,7 @@ class Solution:
 #             return answer
      
     
+# solution c
 #         answer = 0
 #         if x == 0 or x > 2**31 -1 or x < -2**31:
 #             pass
