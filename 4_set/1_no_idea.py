@@ -6,6 +6,12 @@ list_int = list(map(int, input().split()))
 A = list(map(int, input().split()))
 B = list(map(int, input().split()))
 # cant use list here, time limit exceeded error Terminated due to timeout :(
+这里不能用list是因为会报错，Compiler Message
+Terminated due to timeout意思是：list太龙长了，处理不完了。
+
+相反地，如果用set，就去掉了重复项，节省了tons of time和计算力。
+计算力，就好比程序只有64之手，只能做10×64这么多数字，电脑也有极限，
+是cpu和你的program的好坏决定的，不同电脑也有速度区别
 
 # folowing is the correct solution: 
 # A = set(map(int, input().split()))
