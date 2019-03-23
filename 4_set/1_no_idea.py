@@ -13,6 +13,15 @@ Terminated due to timeout意思是：list太龙长了，处理不完了。
 计算力，就好比程序只有64之手，只能做10×64这么多数字，电脑也有极限，
 是cpu和你的program的好坏决定的，不同电脑也有速度区别
 
+
+Sets are significantly faster than lists when you are searching for a particular entry . Moreover it removes multiple entries:
+
+a={1,1,1,1,2,2,2,3,3,3} 
+print (a)
+
+Will give the output : {1, 2, 3} If list is used time required would be much more resulting in a termination due to a timeout
+    
+那就是set用的是特殊的存储方法，找if char in set(a)比 if char in list_a 快
 # folowing is the correct solution: 
 # A = set(map(int, input().split()))
 # B = set(map(int, input().split()))
