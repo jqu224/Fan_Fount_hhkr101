@@ -18,7 +18,7 @@ class Solution:
         
         temp = str(x)
         if temp[0] == "-":
-            answer = int("-"+temp[:0:-1])
+            answer = int("-" + temp[:0:-1])
         else:
             answer = int(temp[::-1])
             
