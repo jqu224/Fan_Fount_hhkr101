@@ -17,7 +17,21 @@ print("\n".join(map(str, diff_0)))
 # listen 2 有说, a = sorted(a) 等同于 a.sort()
 
 
+
+
 # solution b
 # diff = list(list_a.union(list_b) - list_a.intersection(list_b))
 # diff.sort() 
 # print("\n".join(map(str, diff)))
+
+
+
+# 为啥需要srt（）
+
+# >>> "=".join([1,2,3])
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: sequence item 0: expected str instance, int found
+
+# >>> "=".join(["1","2","3"])
+# '1=2=3'
