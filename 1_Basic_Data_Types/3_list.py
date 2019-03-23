@@ -34,3 +34,6 @@ if __name__ == '__main__':
 #                 If no index is specified, a.pop() removes and returns the last item in the list.
 
 # list.reverse() reverse: so [1 3 2 4] -> [4 2 3 1]
+list是可以 [1,"a",[1,2]] ,
+而array 特指same type elements
+【3，2，4】or 【“a” "v" "w"】
