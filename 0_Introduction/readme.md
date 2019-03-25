@@ -23,8 +23,11 @@ print(a)
 这时候page_100写着 “ahahahaha”
 那么print（a）
 ```
-就是print
-“ahahaha”
+same as print
+    “ahahaha”
+    
+ ----------------------------------------------------
+ 
 ```
 a = 10000
 print(a)
