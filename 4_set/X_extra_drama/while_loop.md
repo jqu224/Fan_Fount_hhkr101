@@ -51,6 +51,16 @@ while (i ==8) <10
  blah
  i => 16
 while i == 16 <10 不对啦！while loop就此停止
+
+>>> i = 1
+>>> while i < 10:
+...     print("nai xin dian")
+...     i *= 2
+...
+nai xin dian
+nai xin dian
+nai xin dian
+nai xin dian
 ```
 same thing as the second while loop 
 
