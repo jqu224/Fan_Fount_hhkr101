@@ -54,6 +54,33 @@ line 16到25说的是
 #                 answer *= 10
 #                 answer += temp
 #                 x = x // 10 
+
+这里定义了一个variable叫做sign == int(n / abs(n))也就是n除以n的绝对值，
+这样sign就被用来存正负号了，value of sign = 1 or －1，
+存好符号以后，调转123
+while看作一个简洁版的for loop，条件为：只要while 这行的语句成立，一直loop
+
+那么依次顺序为：x == 123
+123 % 10 余3
+把answer 0 乘以10 == 0
+answer +=余数 => answer == 3
+x等于x//10 => 
+x ==12 while loop 继续
+
+temp = 12%10 => temp ==2
+answer 3 *10 == 30
+answer+=temp => answer == 32
+x//10 ==1 while loop 继续
+
+x 1%10 => temp == 1
+answer *10 => 320
+320+1 => answer ==321
+x //= 10就是0了
+这时候while x>0不成立，这个loop就打破了。
+
+这样123成了321
+
+下文answer = answer*sign就把存着的x的正负号还给了answer  
 #   here we use sign to restore the +- of x
 #             answer *= sign
             
