@@ -13,7 +13,8 @@ while True：
                如果随机的int 是0，我们break这个loop，
     if a ==0:
         break
-这个while true代表了，当写while的这一行的时候，我们还不知道int的数值，等到int的数值产生了，并且是异常的时候，我们就break 这个loop
+这个while true代表了，当写while的这一行的时候，我们还不知道int的数值，
+等到int的数值产生了，并且是异常的时候，我们就break 这个loop
 ```
 ```
 while True:
