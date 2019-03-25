@@ -73,7 +73,7 @@ print(b)
 打印了：
  10000
 
-  
+   
  ```
  x = int(input())
  在python内部发生了什么呢？
