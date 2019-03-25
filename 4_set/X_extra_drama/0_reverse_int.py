@@ -1,5 +1,7 @@
 class Solution:
-    
+
+    原题：https://leetcode.com/problems/reverse-integer/
+          
             
 # 1<<31 
 # -> 1000000000000000000000000000 
