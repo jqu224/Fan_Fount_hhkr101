@@ -45,6 +45,15 @@ line 22到31说的是
             return 0
         else:
             return answer
+        
+#         
+if answer >=1<<31 
+      return 0 
+else
+     return answer
+确保了  return 的值 小于< 2^31
+
+
 
 # solution b
 #         answer = 0
