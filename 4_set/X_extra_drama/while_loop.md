@@ -35,6 +35,22 @@ i = 1
 while i < 10:
   print(blah blah)
   i *= 2
+  
+解：
+i = 1
+while (i ==1) <10
+ blah 
+ i => 2
+while (i ==2) <10
+ blah
+ i => 4
+while (i ==4) <10
+ blah
+ i => 8
+while (i ==8) <10
+ blah
+ i => 16
+while i == 16 <10 不对啦！while loop就此停止
 ```
 same thing as the second while loop 
 
