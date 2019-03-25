@@ -47,12 +47,14 @@ line 16到25说的是
 #             pass 
 #         else: 
 #             sign = int(x/abs(x))
+#   here we use sign to repersent + or -
 #             x *= sign
 #             while x > 0:
 #                 temp = x % 10
 #                 answer *= 10
 #                 answer += temp
 #                 x = x // 10 
+#   here we use sign to restore the +- of x
 #             answer *= sign
             
 #         if answer > 2**31 -1 or answer < -2**31:
