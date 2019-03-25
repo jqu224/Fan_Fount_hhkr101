@@ -6,7 +6,7 @@ while True:
   print(12)
 ```
 the code above will loop forever
-
+```
 while True：意义是有时候我们不知道什么时候停下：
 while True：
     code：随机生成一个a == int
@@ -14,7 +14,21 @@ while True：
     if a ==0:
         break
 这个while true代表了，当写while的这一行的时候，我们还不知道int的数值，等到int的数值产生了，并且是异常的时候，我们就break 这个loop
-
+```
+```
+while True:
+    password = input('请输入您的密码：')
+    if d[name] == password:
+        print('进入系统')
+        break
+    else:
+        print('您输入的密码不正确，请重新输入')
+        continue
+譬如这里我们要输入正确密码，
+如果输入正确，就进入系统（停掉这个while loop跑别的代码去了）
+如果输入错误，要用户一直输入 while 就一直looping
+continue可以不写        
+```
 ```
 i = 1
 while i < 10:
