@@ -1,5 +1,6 @@
 while_loop.md
-
+while （）：只要括号里是成立的，就一直loop。
+那么while True和while 1：一样，while 进入死循环 looping forever，因为True == True, while一直loop。
 ```
 while True:
   print(12)
