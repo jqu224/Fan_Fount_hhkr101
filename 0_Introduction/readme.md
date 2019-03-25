@@ -106,7 +106,9 @@ print：
  x = int(input())
  y = int(input())
  print（x,y）
- 运行上面这三行
+ x = 100
+ print(x, y)
+ 运行上面这5行
  
  程序会等待你输入两行：
  
@@ -121,11 +123,10 @@ print：
  这样，python存了两个变量： x和y
  x和y指向的数值分别是：123和345
  
-print（x，y）就会
+第1次：print（x，y）是：123 空1格 345
+第2次：print（x，y）是：100 空1格 345
  
  
  
  
- ```
-print：
-123 空1格 345
+ ``` 
