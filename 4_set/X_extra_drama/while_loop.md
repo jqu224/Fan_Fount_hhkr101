@@ -5,7 +5,7 @@ while （）：只要括号里是成立的，就一直loop。
 while True:
   print(12)
 ```
-this will loop forever
+the code above will loop forever
 
 while True：意义是有时候我们不知道什么时候停下：
 while True：
