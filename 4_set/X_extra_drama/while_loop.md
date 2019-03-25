@@ -7,7 +7,13 @@ while True:
 ```
 this will loop forever
 
-
+while True：意义是有时候我们不知道什么时候停下：
+while True：
+    code：随机生成一个a == int
+               如果随机的int 是0，我们break这个loop，
+    if a ==0:
+        break
+这个while true代表了，当写while的这一行的时候，我们还不知道int的数值，等到int的数值产生了，并且是异常的时候，我们就break 这个loop
 
 ```
 i = 1
