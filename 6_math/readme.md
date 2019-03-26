@@ -1,5 +1,5 @@
 
-```
+```diff
 if not print(1):
     print(123) 
 print("------------")
