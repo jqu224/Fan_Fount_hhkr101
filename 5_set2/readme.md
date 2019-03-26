@@ -1,4 +1,11 @@
 ```
+list可以+=任意的东西，+=[[list]] +=int +=float += ["string"]都可以
+>>> a+=[[1,2,3]]
+>>> a
+[1, 23, 3, [1, 2, 3]]
+```
+
+```
 union: a bing b
 >>> x1 = {'foo', 'bar', 'baz'}
 >>> x2 = {'baz', 'qux', 'quux'}
