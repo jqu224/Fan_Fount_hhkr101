@@ -32,7 +32,7 @@ for _ in range(int(input())):
         print(True)
     else:
         print(False)
-        
+#         在这里，True and False是python预定义的值。他不认得你的true Teur
         
 ----------------------------------------
 >>> a
