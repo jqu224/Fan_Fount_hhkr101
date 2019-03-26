@@ -1,3 +1,13 @@
+提问 len可以用在string list上 可以用在tuple set 上嘛
+---------
+```
+if len(set_a - set_b) == 0:   
+              print(True)  
+          else:  
+              print(False)  
+```
+
+
 ```
 list可以+=任意的东西，+=[[list]] +=int +=float += ["string"]都可以
 >>> a+=[[1,2,3]]
