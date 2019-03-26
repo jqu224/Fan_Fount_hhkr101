@@ -4,7 +4,33 @@ list可以+=任意的东西，+=[[list]] +=int +=float += ["string"]都可以
 >>> a
 [1, 23, 3, [1, 2, 3]]
 ```
+```
+>>> a,*b = input().split()
+1232 343434 45645
+>>> a
+'1232'
+>>> b
+['343434', '45645']
+ 
+>>>
+>>> a,*b = input().split()
+12 323
+>>> a
+'12'
+>>> b
+['323']
 
+这里用了*，没空格不报错，
+不然python会：呀说好的一个给a一个给b，你只写了一个，我只好写个error给你了
+
+>>> a, b = input().split()
+123
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: not enough values to unpack (expected 2, got 1)
+
+
+```
 ```
 union: a bing b
 >>> x1 = {'foo', 'bar', 'baz'}
