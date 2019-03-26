@@ -15,7 +15,7 @@
 4_set 
 
 5_set2	 
-              20 days passed /  studied 13 days 
+              20 days passed /  studied 13 days ／ 49 + 67 questions left
 6_math
 
 7_built_in
