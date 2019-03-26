@@ -6,7 +6,7 @@ print("------------")
 if print(1):
     print(123) 
     
-&#x1F34E output
+:bowtie output
 1
 123
 ------------
