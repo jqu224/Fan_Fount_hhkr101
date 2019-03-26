@@ -19,6 +19,7 @@ for _ in range(int(input())):
         list_a |= list_b 
     elif cmmd == "intersection_update": 
         list_a &= list_b
+#         把 a.intersection(b) 的return 的set 赋予了，等于 a 重新定义了 a
     elif cmmd == "symmetric_difference_update": 
         list_a ^= list_b 
     elif cmmd == "difference_update":
