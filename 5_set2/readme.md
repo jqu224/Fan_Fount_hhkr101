@@ -61,7 +61,7 @@ only exists in x1
 
 ```
 symmetric_difference
-a ^ b 
+a ^ b = (a - b) | (b - a)
 >>> x1 = {'foo', 'bar', 'baz'}
 >>> x2 = {'baz', 'qux', 'quux'}
 
