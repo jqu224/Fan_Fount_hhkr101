@@ -6,9 +6,10 @@ print("------------")
 if print(1):
     print(123) 
     
-:bowtie output
+:bowtie: output
 1
 123
 ------------
 1
 ```
+:sailboat:
