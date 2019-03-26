@@ -18,6 +18,8 @@ for _ in range(int(input())):
     else:
         print(True)
 
+
+
 # solution b
 for _ in range(int(input())):
     n1 = int(input())
@@ -30,4 +32,20 @@ for _ in range(int(input())):
         print(True)
     else:
         print(False)
+        
+        
+----------------------------------------
+>>> a
+set()
+>>> b
+{65, 3, 54}
+>>> a-b
+set()
+这里a-b为空 if a-b:此时这个if语句被认定为false，不执行if的内容
 
+>>> a = {8,3}
+>>> b
+{65, 3, 54}
+>>> a-b
+{8}
+这里不为空，此时if a-b 语句不等于空，if成立，True，return of a-b == True。执行if内容
