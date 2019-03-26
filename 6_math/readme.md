@@ -2,15 +2,13 @@
 ```diff
 if not print(1):
     print(123) 
-print("------------")
+print("------😳------")
 if print(1):
     print(123) 
-```
-:sailboat: output:
-``` 
+⛵️ output:
 1
-123😳
-------------
+123
+------😳------
 1
 ```
 
