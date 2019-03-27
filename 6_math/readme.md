@@ -36,3 +36,22 @@ TypeError: 'int' object is not iterable
 
 ```
 
+List
+```
+>>> a
+[1, 3, 5, 7, [1232], [11, 22]]
+>>> a[0]
+1
+>>> a[-1]
+[11, 22]
+
+>>> a[-2]
+[1232]
+
+>>> a[-2] + a[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate list (not "int") to list
+>>> a[2] + a[0]
+6
+```
