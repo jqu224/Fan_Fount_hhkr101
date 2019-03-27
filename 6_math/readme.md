@@ -17,7 +17,7 @@ if print(1):
 
 >>> a
 >>>
-print() -> print a empty line
+print() -> print an empty line
 
 
 >>> for i in range(4):
