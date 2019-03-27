@@ -20,6 +20,7 @@ for a in zip(*int_list):
 # *int_list = [list_a] [list_b] [list_c]
 # 这样才能传入：zip()，
 # zip()是把()内的所有的list的 第一个map到一个tuple或者list里， tuple还是list由你选择
+# zip(a, b, ...) at least 2 list
 # 第 2 个map到一个tuple或者list里，
 # 第 3 个map到一个tuple或者list里...
 # 譬如 list(zip( [1, 11, 111], [2, 22, 222] [3, 33, 333] )) => [（1,2,3）, （11,22,33）,（111,222,333）]
