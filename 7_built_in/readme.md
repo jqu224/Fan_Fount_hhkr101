@@ -1,6 +1,8 @@
 
-⛵️: which one is correct?
+⛵️
+Q1: which one is correct?
 ```
+
 create a set:
 1a)  head = {}
 1b)  head = ()
@@ -11,6 +13,22 @@ print the set
 2b)  print((list(head).sort()))
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer 1:
 1c & 2a
 
 2b will print(None) 
