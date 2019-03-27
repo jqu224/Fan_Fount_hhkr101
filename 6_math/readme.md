@@ -12,6 +12,14 @@ if print(1):
 ------😳------
 1
 
+⛵️ :
+>>> a = print()
+
+>>> a
+>>>
+print() -> print a empty line
+
+
 >>> for i in range(4):
 ...     a += [int(input())]
 ...
