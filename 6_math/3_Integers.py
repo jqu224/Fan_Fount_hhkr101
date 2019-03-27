@@ -19,7 +19,8 @@ for _ in range(4):
 	a,b,c,d = int(input()) 
 
 -  nope
-这个逻辑就错了。 = int(input()) 这个等式的右边只有一个return value which is a single int。只能赋予一个variable name
+这个逻辑就错了。 = int(input()) 这个等式的右边只有一个return value 
+which is a single int。只能赋予一个variable name
 
 
 这里的关键是你需要4个variable，其实如下也行：
