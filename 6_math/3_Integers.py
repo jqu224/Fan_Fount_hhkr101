@@ -1,5 +1,10 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-
+power mod, 
+two function with different input arguments: 2 arguments or 3 arguments
+if 2 arguments:   pow(a,b) == a**b == a^b
+with 3 arguments:  pow(a,b,w) == (a**b)%w == mod(a**b, w)
+	
+	
 # solution a
 a = int(input())
 b = int(input())
@@ -10,6 +15,8 @@ print(a**b + c**d)
 # solution b
 a,b,c,d = (int(input()) for _ in range(4))
 print (pow(a,b)+pow(c,d))
+
+
 
 
 ...................................
