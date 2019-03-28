@@ -1,3 +1,7 @@
+https://www.hackerrank.com/challenges/input/problem
+    
+    
+    
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 x, ans = map(int, input().split())
 poly = input()
