@@ -3,7 +3,8 @@
 🌝：   
 
 ======================================     
-🌝：这不知道为啥每题默认python2，你注意一下，写之前把 mode 换成 python3    
+🌝：这不知道为啥每题默认python2，你注意一下，写之前把 mode 换成 python3      
+       
  这里有个背景知识，尽管python3已经推出了快10年了，   
  但是还是有很多program没有改成3，还是2的写法。市面上用py2的code大概还有60%     
  恩，but its a sinking ship，will be gone
