@@ -24,7 +24,7 @@ From March 4th
 8_functionals
 
 9_class
-
+              25 days / March 25th
 10_class
 
 11_regex
