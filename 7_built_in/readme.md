@@ -1,7 +1,3 @@
-
-⛵️：  
-🌝：   
-
 ======================================     
 🌝：这不知道为啥每题默认python2，你注意一下，写之前把 mode 换成 python3      
        
@@ -16,6 +12,7 @@ and py3 used some modern packages
 such as [import xxx] at the start of your code... 
 you may have seen them already, 
 ```
+
 ```
 input().split() 是把 input() 从输入端拿到的string 
 按照默认的 sep = “ ”变成 list
@@ -240,7 +237,6 @@ en
 🌝：  不对，是join 成 “1 2 3”
 
 ```
-
 create a set:
 1a)  head = {}
 1b)  head = ()
@@ -281,51 +277,7 @@ print the set
 2a)  print(sorted(list(head)))
 2b)  print((list(head).sort()))
 ```
-```
-
-create a set:
-1a)  head = {}
-1b)  head = ()
-1c)  head = set()
-
-print the set
-2a)  print(sorted(list(head)))
-2b)  print((list(head).sort()))
-```
-```
-
-create a set:
-1a)  head = {}
-1b)  head = ()
-1c)  head = set()
-
-print the set
-2a)  print(sorted(list(head)))
-2b)  print((list(head).sort()))
-```
-```
-
-create a set:
-1a)  head = {}
-1b)  head = ()
-1c)  head = set()
-
-print the set
-2a)  print(sorted(list(head)))
-2b)  print((list(head).sort()))
-```
-```
-
-create a set:
-1a)  head = {}
-1b)  head = ()
-1c)  head = set()
-
-print the set
-2a)  print(sorted(list(head)))
-2b)  print((list(head).sort()))
-```
-
+ 
 
 
 
