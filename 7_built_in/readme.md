@@ -17,7 +17,7 @@ print the set
 
 
 
-[create an anchor](#anchors-in-markdown)
+[answer 1](#Answer 1)
 
 
 
@@ -28,7 +28,7 @@ print the set
 
 
 
-Answer 1:(#some-markdown-heading)
+Answer 1:(#Answer 1)
 ---------------
 1c & 2a
 
