@@ -264,7 +264,14 @@ gives u the same thing as print(123)
 123
 
 ⛵️：为什么要有这个东西的存在呢
-🌝：恩,这里就可以用到...
+🌝：恩, 这题就可以用到呀..... ......
+其实这是个 chicken egg question
+从一开始, python 就是这么处理你的 code的,
+
+把所有的 code 先当做 string 一个个输入, 然后分解, 加工evaluate成为program
+譬如你其实写的 code 是 "print(123)" 
+那么python自己就调用call了eval()，
+然后识别出：你要py用print这个function print 123呢
 ```
 ```
 
