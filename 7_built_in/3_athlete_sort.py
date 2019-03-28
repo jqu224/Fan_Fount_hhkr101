@@ -6,7 +6,7 @@ import random
 import re
 import sys
 
-# first define a 
+# first define an anonymous function
 def takeSecond(elem):
     return elem[k]
  
