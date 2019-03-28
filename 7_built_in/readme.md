@@ -21,6 +21,72 @@ print the set
 
 
 
+```
+
+create a set:
+1a)  head = {}
+1b)  head = ()
+1c)  head = set()
+
+print the set
+2a)  print(sorted(list(head)))
+2b)  print((list(head).sort()))
+```
+```
+
+create a set:
+1a)  head = {}
+1b)  head = ()
+1c)  head = set()
+
+print the set
+2a)  print(sorted(list(head)))
+2b)  print((list(head).sort()))
+```
+```
+
+create a set:
+1a)  head = {}
+1b)  head = ()
+1c)  head = set()
+
+print the set
+2a)  print(sorted(list(head)))
+2b)  print((list(head).sort()))
+```
+```
+
+create a set:
+1a)  head = {}
+1b)  head = ()
+1c)  head = set()
+
+print the set
+2a)  print(sorted(list(head)))
+2b)  print((list(head).sort()))
+```
+```
+
+create a set:
+1a)  head = {}
+1b)  head = ()
+1c)  head = set()
+
+print the set
+2a)  print(sorted(list(head)))
+2b)  print((list(head).sort()))
+```
+```
+
+create a set:
+1a)  head = {}
+1b)  head = ()
+1c)  head = set()
+
+print the set
+2a)  print(sorted(list(head)))
+2b)  print((list(head).sort()))
+```
 
 
 
