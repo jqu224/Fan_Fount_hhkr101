@@ -1,3 +1,6 @@
+https://www.hackerrank.com/challenges/ginorts/problem
+    
+    
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 string = input()
