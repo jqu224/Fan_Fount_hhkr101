@@ -8,7 +8,7 @@ From March 4th
 1_Basic_Data_Types 
 
 2_Strings 
-
+              10 days passed /  
 3_String1 
 
 3_String2	 
