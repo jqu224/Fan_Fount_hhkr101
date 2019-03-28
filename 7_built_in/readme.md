@@ -9,6 +9,17 @@
  但是还是有很多program没有改成3，还是2的写法。市面上用py2的code大概还有60%     
  恩，but its a sinking ship，will be gone
 
+```
+print 123 for py2       
+print(123) for py3      
+and py3 used some modern packages 
+such as [import xxx] at the start of your code... 
+you may have seen them already, 
+```
+
+
+
+
 Q1: which one is correct?
 ```
 
