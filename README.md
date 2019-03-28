@@ -1,5 +1,6 @@
 # Fan_Fount_hhkr101
-60 days of python on hackerrank 
+From March 4th    
+60 days of python on hackerrank
 
 ```
 0_Introduction	Update readme.md	 
