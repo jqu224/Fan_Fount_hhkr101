@@ -3,6 +3,7 @@ https://www.hackerrank.com/challenges/ginorts/problem
     
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
+# solution a
 string = input()
 low = ""
 upp = ""
@@ -22,3 +23,8 @@ upp = sorted(list(upp))
 odd = sorted(list(odd))
 eve = sorted(list(eve))
 print("".join([*low,*upp,*odd,*eve]))
+
+
+# solution b
+order = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1357902468'
+print(*sorted(input(), key=order.index), sep='')
