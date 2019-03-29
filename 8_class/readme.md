@@ -15,10 +15,11 @@ print(L_plus)
   >>>[3,4,5,6,7]
 
 ---------------------------- 
-ok= [1,6,7,3,8,4,2,9,8]
-p = ok[-1]
+ok= [1,6,7,3,8,4,2,9,5]
+p = ok[-1] # p == 5
 l = [x for x in ok[0:-1] if x <= p] + [p] + [x for x in ok[::-1] if x > p]
 
-
+now 5 is in the middle of the list
+ok= [1,3,4,2,5,6,7,9,8]
 
 ```
