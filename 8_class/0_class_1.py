@@ -38,20 +38,26 @@ TypeError: can't mod complex numbers.
 # following is the solution 
 # # # # # # # # # # # # # # 
 
-这里的class定义了一个（类），类别的意思，和def很像，但是放在def外面，
-如果说def是一种操作，譬如def eat（a）：让a去吃饭
-class chinese（a）：表示的是定义一个object a ，而a内置的defined function包含各种callable的可能性：
+这里的class定义了一个（类），(类别) 的意思，和def很像，但是放在def外面，
+如果说def是一种操作，譬如
+def eat（a）：让a去吃饭
+
+class chinese（a）：
+表示的是定义一个object a ，
+而a内置的defined function包含各种callable的可能性：
+
 譬如
 class chinese(object):
   def eat(a):
     吃吃吃
-    
+  def loud(a):    
+    talk talk talk    
 
 然后初始化：
-a = chinese()
+>>> a = chinese()
 
 你可以用
-a.eat()
+>>> a.eat()
 来让a吃饭了
 
 ／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／
