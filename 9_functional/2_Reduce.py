@@ -10,6 +10,7 @@ def product(fracs):
     return t.numerator, t.denominator
     
 #     think about this:
+#   update:  bad sample, forget it
     t = reduce(lambda x, y : x * y, [(1, 3), (4, 5), (29, 63)])
     
 if __name__ == '__main__':
