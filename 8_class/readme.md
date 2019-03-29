@@ -23,3 +23,8 @@ now 5 is in the middle of the list
 ok= [1,3,4,2,5,6,7,9,8]
 
 ```
+
+for jupyter notebook only     
+!ls -g      
+ list all of the files under current directory
+ 
