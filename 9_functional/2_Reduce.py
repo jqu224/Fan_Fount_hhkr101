@@ -35,3 +35,9 @@ print (functools.reduce(lambda a,b : a+b,lis))
 # using reduce to compute maximum element from list 
 print ("The maximum element of the list is : ",end="") 
 print (functools.reduce(lambda a,b : a if a > b else b,lis)) 
+
+
+Output:
+
+The sum of the list elements is : 17
+The maximum element of the list is : 6
