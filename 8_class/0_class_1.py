@@ -34,9 +34,6 @@ Traceback (most recent call last):
 TypeError: can't mod complex numbers.
 
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# following is the solution 
-# # # # # # # # # # # # # # 
 
 这里的class定义了一个（类），(类别) 的意思，和def很像，但是放在def外面，
 如果说def是一种操作，譬如
@@ -64,21 +61,28 @@ class chinese(object):
 用的时候
 #   这里呢，__xxx__ 表示xxx是一个内部函数，譬如 
 a，b = 1, 3
-事实上a和b都是int object，自带+-*/ % //法，这些都是预先写好的，（具体看下文理解）
-因此才可以写 a + b， a - b
-下面的code就是让你重新写一遍这些内置函数
+事实上a和b都是int object，自带+-*/ % //法，这些都是__add__ __sub__ __div__ etc.
+we have these 预先写好的 function of class (int)，
+因此才可以写 a + b， a - b（具体看下文 solution 理解）
+
+solution 的 code 就是让你重新写一遍这些内置函数
 －－－－－－－－－－－－－－－－
-self 代表这个object自己，不算传入的argument
+self 代表这个 this object 自己's stuff，不算传入的argument
 
 # 这里init是用来初始化的，譬如 
-a = chinese(arg1)
-而class里的init有写：
+class里的init有写：
 def __init__(self, waha):
   self.waaa = “waha”
+  
+而 we initialize an object by using: 
+>>> a = chinese(arg1)
   
   那么，这个a就把arg1 take in成了他的waaa这个特征了。
 ////////////////////////////////////////////////////
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# following is the solution 
+# # # # # # # # # # # # # # 
 class Complex(object):
   def __init__(self, real, imaginary):
         self.real = real
