@@ -29,7 +29,8 @@ import functools
 lis = [ 1 , 3, 5, 6, 2, ] 
   
 # using reduce to compute sum of list 
-print ("The sum of the list elements is : ",end="") 
+# by default, print end= with a new line char: \n here is “” which means no new line after de string 
+print ("The sum of the list elements is : ",end="")
 print (functools.reduce(lambda a,b : a+b,lis)) 
   
 # using reduce to compute maximum element from list 
