@@ -37,6 +37,6 @@ a both == 9
 
 这是一个特例。
 1d是一个 n by 1 的array，
-她的 shape return是 number 和空。
+她的 shape return 是 number 和空。
 
 2d 的 shape return 是 row 和 column
