@@ -1,5 +1,4 @@
-https://www.hackerrank.com/challenges/np-mean-var-and-std/problem?h_r=next-challenge&h_v=zen
-  
+https://www.hackerrank.com/challenges/np-min-and-max/problem
   
 import numpy as np
 
