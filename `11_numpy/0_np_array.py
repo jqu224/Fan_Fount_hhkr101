@@ -12,7 +12,11 @@ def arrays(arr):
     # solution 1.b
     return numpy.array(arr[::-1],float)
 
-# solution 2 , aliasing
+# solution 2 , aliasing 
+# *注意，aliasing 的 nickname 是固定的，
+# numpy -> np, pandas -> pd, 
+# import matplotlib.pyplot -> plt
+写起来就是：import matplotlib.pyplot as plt
 # by aliasing, we can use nicknames to call the package
 import numpy as np
 
