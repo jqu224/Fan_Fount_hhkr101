@@ -9,12 +9,14 @@ import numpy as np
 np.set_printoptions(legacy='1.13')
 
 n, m = map(int, input().split())
+
 # solution a
 if n == m:
     print(np.identity(n))
 else: 
-    print(np.eye(n, m, k = 1))
-
+    print(np.eye(n, m, k = 0))
+    # # or simply
+    # print(np.eye(n, m))
 
 # solution b
 # without np.set_printoptions(legacy='1.13')
