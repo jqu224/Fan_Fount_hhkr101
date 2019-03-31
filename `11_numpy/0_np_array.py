@@ -1,3 +1,5 @@
+https://www.hackerrank.com/challenges/np-arrays/problem
+    
 # solution 1 , importing pkgs
 # here numpy is a package that consists of pre-defined functions
 # that we can use to achieve diff [goals]
