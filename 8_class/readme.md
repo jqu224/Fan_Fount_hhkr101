@@ -49,7 +49,9 @@ such as eat() loud() in chinese
 这里的instance method是个全称
 -----------------------------
 一般analyst叫他method，或者defined function，         
-只是对应static method 和 class method来说，他应该叫做 instance method，意思是 we call it （for eg, eat()）by its instance name         
+只是对应static method 和 class method来说，                
+他应该叫做 instance method，              
+意思是 we call it （for eg, eat()）by its instance name         
 
 如果可以用 chinese.eat() 来执行eat，那么这个eat就不是上面这么写了，         
 那就叫class method，call it by its class name，因为是通过【类名】召唤他         
