@@ -6,8 +6,8 @@ def arrays(arr):
     # complete this function
     # use numpy.array
     
-    # solution 1.a
-    return numpy.array(map(float,arr[::-1]))
+    # solution 1.
+    return numpy.array(list(map(float,arr[::-1])))
     
     # solution 1.b
     return numpy.array(arr[::-1],float)
