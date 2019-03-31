@@ -45,18 +45,26 @@ class chinese（a）：
 
 譬如
 class chinese(object):
+  def __init__(self, name):
+    self.name = name
   def eat(a):
-    吃吃吃
+    print(吃吃吃)
+    
   def loud(a):    
     talk talk talk    
 
 然后初始化：
->>> a = chinese()
+>>> a = chinese("fan")
 
 你可以用
 >>> a.eat()
-来让a吃饭了
 
+来让a吃饭了
+a.eat()
+output:
+print: 吃吃吃
+  
+  
 ／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／
 用的时候
 #   这里呢，__xxx__ 表示xxx是一个内部函数，譬如 
