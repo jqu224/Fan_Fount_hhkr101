@@ -1,3 +1,6 @@
+https://www.hackerrank.com/challenges/np-concatenate/problem
+    
+    
 import numpy as np
 
 a, b, c = map(int,input().split())
