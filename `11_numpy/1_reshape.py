@@ -1,3 +1,5 @@
+https://www.hackerrank.com/challenges/np-shape-reshape/problem
+  
 import numpy as np
 
 import_array = input().split() 
