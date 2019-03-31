@@ -6,7 +6,7 @@ def arrays(arr):
     # complete this function
     # use numpy.array
     
-    # solution 1.
+    # solution 1.a
     return numpy.array(list(map(float,arr[::-1])))
     
     # solution 1.b
@@ -21,7 +21,7 @@ def arrays(arr):
     # use numpy.array
     
     # solution 2.a
-    return np.array(map(float,arr[::-1]))
+    return numpy.array(list(map(float,arr[::-1])))
     
     # solution 2.b
     return np.array(arr[::-1],float)
@@ -40,7 +40,7 @@ def arrays(arr):
     # use numpy.array
     
     # solution 3.a
-    return array(map(float,arr[::-1]))
+    return array(list(map(float,arr[::-1])))
     
     # solution 3.b
     return array(arr[::-1],float)
