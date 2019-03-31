@@ -1,3 +1,5 @@
+https://www.hackerrank.com/challenges/np-min-and-max/problem
+  
 import numpy as np
 
 # The min along axis=1 => gives a vector: a vector is a 1d array  
