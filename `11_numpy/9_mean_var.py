@@ -1,4 +1,4 @@
-https://www.hackerrank.com/challenges/np-min-and-max/problem
+https://www.hackerrank.com/challenges/np-mean-var-and-std/problem
   
 import numpy as np
 
