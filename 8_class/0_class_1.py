@@ -45,6 +45,8 @@ class chinese（a）：
 
 譬如
 class chinese(object):
+  blah = 0
+  
   def __init__(self, name):
     self.name = name
   def eat(a):
@@ -52,13 +54,23 @@ class chinese(object):
     
   def loud(a):    
     talk talk talk    
-
+  
+  @classmethod 
+  def get_no_of_instance(xxx):
+      chinese.blah = chinese.blah + 1
+      return xxx.blah
+    
+  @staicmethod 
+  def get_no_of_instance(xxx):
+      return xxx.no_inst
 然后初始化：
 >>> a = chinese("fan")
 
 你可以用
 >>> a.eat()
-
+print: 吃吃吃
+  
+  
 来让a吃饭了
 a.eat()
 output:
