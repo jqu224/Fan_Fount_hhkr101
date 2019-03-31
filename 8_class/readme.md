@@ -33,7 +33,7 @@ for jupyter notebook only
  
 a =animal(“fan”) 这是用“fan”这个参数，对a进行初始化 initialize，结果就是：建立一个anminal类型的实例 instance：a         
 
-instance method是animal 这个class的 内部 defined function,          
+instance method 是 animal 这个 class 的 内部 defined function,          
 
 such as eat() loud() in chinese         
 
@@ -55,14 +55,14 @@ such as eat() loud() in chinese
 那就叫class method，call it by its class name，因为是通过【类名】召唤他         
 
 
-https://blog.csdn.net/weixin_35653315/article/details/78165645 
-注意foo 和Foo区别，前者是后者的instace，后者是前者的class。         
-你需要的就这些，当别人在说这些term的时候大概知道别人在说啥就行。不用深究，没完没了滴，又不是当码农，不用学这些。         
+https://blog.csdn.net/weixin_35653315/article/details/78165645       
+注意foo 和Foo区别，前者是后者的instace，后者是前者的class。             
+你需要的就这些，当别人在说这些term的时候大概知道别人在说啥就行。不用深究，没完没了滴，又不是当码农，不用学这些。            
 
 
-有一些放在class里但是在内部def外面, 这些变量，
-譬如这个 blah         
-他是被 aa = chinese()          
+有一些放在class里但是在内部def外面, 这些变量，   
+譬如这个 blah          
+他是被 aa = chinese()           
 
 bb = chinese() 共享的，那么class method就用来操作 blah这些个共享的variables。         
 
