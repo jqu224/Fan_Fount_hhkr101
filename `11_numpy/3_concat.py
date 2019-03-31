@@ -10,3 +10,25 @@ print(np.concatenate((arrA, arrB), axis = 0))
 
 # solution b
 print(np.concatenate((arrA, arrB) )) 
+
+# by default, axis = 0
+# column number must match to each other
+A A
+A A
+A A
+B B
+B B
+
+A is 3x2
+B is 2x2
+
+
+# axis = 1 means 
+# row number must match to each other
+A | B 
+A | B
+A | B
+
+A is 3x4
+while
+B is 3x10
