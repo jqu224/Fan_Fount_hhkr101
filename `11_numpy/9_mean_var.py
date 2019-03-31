@@ -1,3 +1,6 @@
+https://www.hackerrank.com/challenges/np-mean-var-and-std/problem?h_r=next-challenge&h_v=zen
+  
+  
 import numpy as np
 
 np.set_printoptions(legacy='1.13')
