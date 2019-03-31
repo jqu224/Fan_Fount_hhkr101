@@ -2,15 +2,24 @@ import numpy as np
 
 a, b, c = map(int,input().split())
 
-arrA = np.array([input().split() for _ in range(a)],int)
+arrA = []
+for _ in range(a):
+    arrA += input().split()
+
+arrA = np.array(arrA,int)
+
+# or you can do it in a zhuangbility way
 arrB = np.array([input().split() for _ in range(b)],int)
 
 # solution a
-print(np.concatenate((arrA, arrB), axis = 0))
+print(np.concatenate((arrA, arrB), axis = 1))
 
 # solution b
 print(np.concatenate((arrA, arrB) )) 
 
+
+
+===============       NOTE      =====================
 # by default, axis = 0
 # column number must match to each other
 A A
