@@ -30,5 +30,5 @@ t or f，表示，check if t or f 任一 true then return true
 ⛵️：          
 not t 和t ！=f呢          
 〽️：            
-not t 意思是 t取反
-t ！= ：check if t不等于f，不等于就return true 不然则return false，给print去print
+not t 意思是 t取反           
+t ！= ：check if t不等于f，不等于就return true 不然则return false，给print去print          
