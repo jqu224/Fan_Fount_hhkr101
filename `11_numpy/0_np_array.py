@@ -31,6 +31,7 @@ def arrays(arr):
     return np.array(arr[::-1],float)
 
 # solution 3 , from -xxx- import  -yyy- 
+# 。 just so you know
 # * means unpack [all of the sub packages in -xxx-]
 # so that we could use numpy.array as array (python already knows you are using array)
 # but this particular method could be confusing, 
