@@ -8,7 +8,7 @@
 
           ⏬            
               
-#️⃣ A [TUTORIAL](https://github.com/jqu224/Fan_Fount_hhkr101/blob/master/%6011_numpy/review_n_intro_to_new_world.ipynb) on basic Python/Numpy that is necesseary to get started with the above machine learning classes.      
+#️⃣ A [TUTORIAL](https://github.com/jqu224/Fan_Fount_hhkr101/blob/master/%6011_numpy/review_n_intro_to_new_world.ipynb) on basic Python/Numpy that is necesseary to get started with .....      
             
           ⏫                
 
