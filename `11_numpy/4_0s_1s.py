@@ -1,6 +1,5 @@
 https://www.hackerrank.com/challenges/np-zeros-and-ones/problem
-  
-  
+   
 import numpy as np
 nums = tuple(map(int, input().split()))
 
