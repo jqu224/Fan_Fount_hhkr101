@@ -1,3 +1,5 @@
+https://www.hackerrank.com/challenges/np-transpose-and-flatten/problem
+
 import numpy as np
 
 n, m = map(int, input().split())
