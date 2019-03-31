@@ -48,7 +48,9 @@ def arrays(arr):
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # # # # # # # # # # main functions # # # # # # # # # 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
+# here we dont have a __main__ function
+# following is a simple and straightforward [script] 
+# that calls the defined functions [arrays] above
 arr = raw_input().strip().split(' ')
 result = arrays(arr)
 print(result)
