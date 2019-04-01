@@ -34,7 +34,9 @@ not t 意思是 t取反
 t ！= ：check if t不等于f，不等于就return true 不然则return false，给print去print          
        
        
-hackerrank的input：       
+=========================================              
+⛵️：             
+hackerrank的input是什么意思：   
 di yi hang\n       
 di er hang\n       
 di san hang\n       
@@ -42,7 +44,16 @@ di si hang\n
 di wu hang\n       
 di liu hang\n       
 
-如果你写       
+\n首先，每一行都有一个回车符号，所谓换行符"\n"
+所以你看到的 hackerrank input 事实上是：
+di yi hang\n       
+di er hang\n       
+di san hang\n       
+di si hang\n       
+di wu hang\n       
+di liu hang\n        
+
+这时候如果你写       
 a = []       
 for _ in range(3):       
      a  += ["first line: "+input()]        
@@ -54,8 +65,9 @@ python怎么逐行读入呢？
 你就理解为读了一行，擦掉一行。       
 然后，把a这部分已读3行，还有最后三行等待读取pending，所以等你运行b这部分的时候，就是从第四行读了。         
 
-=========================================
-hackerrank的input：         
+=========================================              
+⛵️：       
+hackerrank的input是什么意思：         
 di yi hang\n         
 di er hang\n           
          
