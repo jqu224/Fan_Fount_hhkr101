@@ -29,12 +29,8 @@ From March 4th
 
 11_regex
 
-12_numpy
-
-13_numpy
-
-14_numpy
-
+12_numpy 
+              31 days passed /  studied 23 days  / March 31th
 
 ：extra： 
 
