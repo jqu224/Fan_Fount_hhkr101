@@ -26,6 +26,9 @@ print(np.concatenate((arrA, arrB) ))
 
 
 ===============       NOTE      =====================
+axis=1意思是沿着column左右拼接。axis = 0意思是row by row上下拼接           
+
+
 # by default, axis = 0
 # column number must match to each other
 A A
