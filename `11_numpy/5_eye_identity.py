@@ -23,3 +23,8 @@ else:
 # solution b
 # without np.set_printoptions(legacy='1.13')
 print(str(np.eye(*map(int,input().split()))).replace('1',' 1').replace('0',' 0'))
+
+
+=============================================================================
+>>> np.eye(3,5,1) 也是可以的，不推荐这么写（只是了解一下，以防看不懂别人的 code）。
+>>> np.eye(3,5,k=1) 这样写就好，容易 debug
