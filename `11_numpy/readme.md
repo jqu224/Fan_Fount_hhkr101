@@ -70,5 +70,22 @@ python怎么逐行读入呢？
 上次也是这么讲的，逐行读入，      
 python读了1行以后再看到input()，      
 他不知道他读过什么，      
-他只知道你要他再读一行
+他只知道你要他再读一行           
+          
+          
+          
+>>> a = []          
+>>> for _ in range(3):          
+...     a  += ["first line: "+input()]          
+...          
+di yi hang按下回车          
+di er hang按下回车          
+di san hang按下回车          
+>>>          
+>>>          
+>>>          
+>>> print("\n".join(a))          
+first line: di yi hang          
+first line: di er hang          
+first line: di san hang          
 
