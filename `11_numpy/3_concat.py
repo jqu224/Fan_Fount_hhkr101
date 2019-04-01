@@ -18,6 +18,7 @@ arrB = np.array([input().split() for _ in range(b)],int)
 print(np.concatenate((arrA, arrB), axis = 0))
 
 # solution b
+# by default, axis = 0
 print(np.concatenate((arrA, arrB) )) 
 
 
