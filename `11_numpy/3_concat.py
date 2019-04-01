@@ -15,6 +15,8 @@ arrA = np.array(arrA,int)
 arrB = np.array([input().split() for _ in range(b)],int)
 
 # solution a
+# axis=1意思是沿着column左右拼接。
+# axis = 0意思是row by row上下拼接
 print(np.concatenate((arrA, arrB), axis = 0))
 
 # solution b
