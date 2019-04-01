@@ -26,15 +26,16 @@ From March 4th
 9_class
               22 days  /  studied 18 days  /  March 25th
 10_class
+ 
 
-11_regex
-
-12_numpy 
+11_numpy 
               28 days passed /  studied 21 days  / March 31th
 
 ：extra： 
 
-15_regex
+12_regex
+
+13_debug
 
 GG/leetcode	 
 
