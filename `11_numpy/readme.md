@@ -1,7 +1,6 @@
 ## Now we are done with basic [python's] data strutures
 
-# 目录 
-  - [end of file](#end) 
+-- [end of file](#end) 
 
 ⛵️, PLEASE TAKE A LOOK AT THE TUTORIAL MENTIONED BELOW.    
 
