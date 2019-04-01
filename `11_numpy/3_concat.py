@@ -7,7 +7,7 @@ a, b, c = map(int,input().split())
 
 arrA = []
 for _ in range(a):
-    arrA += input().split()
+    arrA += [list(input().split())]
 
 arrA = np.array(arrA,int)
 
@@ -15,7 +15,7 @@ arrA = np.array(arrA,int)
 arrB = np.array([input().split() for _ in range(b)],int)
 
 # solution a
-print(np.concatenate((arrA, arrB), axis = 1))
+print(np.concatenate((arrA, arrB), axis = 0))
 
 # solution b
 print(np.concatenate((arrA, arrB) )) 
