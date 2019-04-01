@@ -24,13 +24,13 @@ From March 4th
 8_functionals
 
 9_class
-              25 days / March 25th
+              22 days  /  studied 18 days  /  March 25th
 10_class
 
 11_regex
 
 12_numpy 
-              31 days passed /  studied 23 days  / March 31th
+              28 days passed /  studied 21 days  / March 31th
 
 ：extra： 
 
