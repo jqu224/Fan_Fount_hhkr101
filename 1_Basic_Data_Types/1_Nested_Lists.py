@@ -71,20 +71,10 @@ if __name__ == '__main__':
     #                 41.0: ['Akriti'], 
     #                 39.0: ['Harsh']}
     
-    sec_last = float("-inf")  
     
-    # score values: from max to min 
-    for i in sorted(sheet.keys()): # i -> [37.21,  37.2,   41.0,   39.0] 
-    #         dict.keys() means get all of the keys, in this case all floats values
-    # or: 
-    # for i in sorted(list(sheet))
-        if i > sorted(sheet.keys())[0]:
-            sec_last = i
-            break # found the second lowest score let us break this for() loop please!
-        # pls also try:
-        # if i < max(sheet.keys()): 
-        #    sec_last = i
-        #    break 
+    sec_last = float("-inf")  
+    if len(sheet) > 1:
+        sec_last = sorted(sheet.keys())[1]
 
     if sec_last in sheet:
         # print the list of 2nd lowest values line by line        
